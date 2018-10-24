@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        </style>
+</head>
+
+<body>
+
+  <body>
+    <div class="banner" id="top">
+      <img src="./img/logo.png" class="banner" alt="">
+    </div>
+    <div class="topnav">
+      <nav>
+        <ul>
+          <li><a href="./index.html"><span class="fa fa-home"></span> Home</a></li>
+          <li><a href="./about.html"><span class="fa fa-user"></span> About</a></li>
+          <li><a href="./contact.html"><span class="fa fa-address-card"></span> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <h3 class="contact clearfix">Contact Form</h3>
+
+  <div class="container clearfix">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="bottomnav">
+    <nav>
+      <ul>
+        <li><a href="./index.html"><span class="fa fa-home"></span> Home</a></li>
+        <li><a href="./about.html"><span class="fa fa-user"></span> About</a></li>
+        <li><a href="./contact.html"><span class="fa fa-address-card"></span> Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <footer>
+    <p>Copyright Â© Brock's Photography 2018</p>
+    <a class="top" href="#top">Back to Top</a>
+  </footer>
+
+</html>

@@ -1,3 +1,4 @@
+/*# sourceMappingURL=index.css.map */
 /*CSS CLEAR*/
 html,
 body,
@@ -131,9 +132,12 @@ q:after {
   box-sizing: border-box;
 }
 
-.banner img {
-  height: 25rem;
-  opacity: 0.9;
+.banner {
+  height: 15rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clearfix::after {
@@ -174,10 +178,11 @@ body {
   display: block;
   padding: 1.65rem;
   margin: 0 0 0 0;
-  background-color: grey;
-  color: black;
+  background-color: rgba(202, 231, 182, 1);
+  color: hsla(114, 99%, 27%, 0.98);
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5rem;
+  border-bottom: 2px solid rgba(202, 231, 182, 1);
 }
 
 .topnav nav ul li:last-child a {
@@ -185,8 +190,7 @@ body {
 }
 
 .topnav nav ul li a:hover {
-  background-color: #686868;
-  color: white;
+  border-bottom: 2px solid hsla(114, 99%, 27%, 0.98);
 }
 
 .bottomnav {
@@ -208,7 +212,7 @@ h2 {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
@@ -239,6 +243,21 @@ img {
   width: 100%;
   height: 16.5rem;
 }
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutname {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main img:hover {
+  opacity: 0.5;
+}
 
 .centered {
   position: absolute;
@@ -249,15 +268,6 @@ img {
   text-align: center;
   margin: auto;
   padding: 0;
-}
-
-.span {
-  color: white;
-  font-family: 'Pacifico', cursive;
-  letter-spacing: -1px;
-  padding: 10px;
-  font-size: 2rem;
-  top: 9rem;
 }
 
 .border {
@@ -340,6 +350,10 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
+}
+.contact {
+  padding: 1rem;
+  margin-top: 5rem;
 }
 
 /*ADJUSTMENT FOR TABLET*/
