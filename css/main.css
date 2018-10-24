@@ -250,64 +250,12 @@ footer p {
   font-size: 1rem;
   line-height: 1.5rem; }
 
-th,
-td {
-  border: 1px solid black;
-  padding: 2rem; }
-
-thead {
-  background-color: lightgrey;
-  color: Black; }
-
-table {
-  margin-top: 5rem;
-  border-collapse: collapse;
-  width: 100%; }
-
-tr {
-  background-color: lightgrey; }
-
-fieldset {
-  border: 1px solid #ddd;
-  margin-top: 3rem; }
-
-.form-box:first-child {
-  margin-top: 5rem; }
-
-.form-box {
-  padding: 0 0 1rem 0;
-  padding-top: 2rem; }
-
-label {
-  display: block;
-  margin: 0 0 0.5rem 0; }
-
-.buttons label {
-  display: inline-block; }
-
-.buttons input {
-  width: auto; }
-
 input,
 textarea {
   padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 3px;
   width: 100%; }
-
-.googlemaps {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden; }
-
-.googlemaps iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0; }
 
 .contact {
   padding: 1rem;
@@ -320,9 +268,6 @@ textarea {
     float: left;
     margin-bottom: 1rem; }
   .main {
-    width: 50%;
-    margin: auto; }
-  table {
     width: 50%;
     margin: auto; }
   .aboutarticle {
@@ -364,25 +309,8 @@ textarea {
   .top {
     margin: auto;
     text-align: center; }
-  .span {
-    color: white;
-    font-family: 'Pacifico', cursive;
-    letter-spacing: -1px;
-    padding: 10px;
-    font-size: 4rem;
-    top: 9rem; }
   .aboutarticle {
     width: 45%;
     float: left;
     margin-right: 5%;
-    margin-top: 5%; }
-  fieldset {
-    width: 45%;
-    float: left;
-    margin-right: 5%; }
-  .googlemaps {
-    float: left;
-    width: 50%; }
-  .googlemaps iframe {
-    height: 550px;
     margin-top: 5%; } }
